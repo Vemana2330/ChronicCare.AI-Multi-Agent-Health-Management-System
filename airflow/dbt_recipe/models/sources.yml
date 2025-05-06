@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RECIPE_DB
+    schema: RAW_DATA_SCHEMA   # ✅ Fix this to match your actual schema
+    tables:
+      - name: RAW_RECIPES
