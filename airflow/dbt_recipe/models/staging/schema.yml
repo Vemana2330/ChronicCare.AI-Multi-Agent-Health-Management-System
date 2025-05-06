@@ -1,0 +1,133 @@
+version: 2
+
+models:
+  - name: stg_recipes
+    description: "Staging model that cleans, pivots, and standardizes raw recipe nutritional attributes"
+    columns:
+      - name: recipe_name
+        description: "Unique name of the recipe"
+        tests:
+          - not_null
+          - unique
+
+      - name: servings
+        description: "Number of servings for the recipe"
+        tests:
+          - not_null
+              
+
+      - name: calories_per_serving_kcal
+        description: "Calories per serving"
+        tests:
+          - not_null
+  
+      - name: daily_value_pct
+        description: "Daily value percentage"
+
+      - name: fat_g
+        description: "Total fat in grams"
+
+      - name: saturated_g
+        description: "Saturated fat in grams"
+
+      - name: trans_g
+        description: "Trans fat in grams"
+
+      - name: monounsaturated_g
+        description: "Monounsaturated fat in grams"
+
+      - name: polyunsaturated_g
+        description: "Polyunsaturated fat in grams"
+
+      - name: carbs_g
+        description: "Total carbohydrates in grams"
+
+      - name: net_carbs_g
+        description: "Net carbohydrates in grams (excluding fiber)"
+
+      - name: fiber_g
+        description: "Fiber content in grams"
+
+      - name: sugars_g
+        description: "Sugar content in grams"
+
+      - name: protein_g
+        description: "Protein content in grams"
+
+      - name: cholesterol_mg
+        description: "Cholesterol in milligrams"
+
+      - name: sodium_mg
+        description: "Sodium in milligrams"
+
+      - name: calcium_mg
+        description: "Calcium in milligrams"
+
+      - name: magnesium_mg
+        description: "Magnesium in milligrams"
+
+      - name: potassium_mg
+        description: "Potassium in milligrams"
+
+      - name: iron_mg
+        description: "Iron in milligrams"
+
+      - name: zinc_mg
+        description: "Zinc in milligrams"
+
+      - name: phosphorus_mg
+        description: "Phosphorus in milligrams"
+
+      - name: vitamin_a_mcg
+        description: "Vitamin A in micrograms"
+
+      - name: vitamin_c_mg
+        description: "Vitamin C in milligrams"
+
+      - name: thiamin_b1_mg
+        description: "Thiamin (B1) in milligrams"
+
+      - name: riboflavin_b2_mg
+        description: "Riboflavin (B2) in milligrams"
+
+      - name: niacin_b3_mg
+        description: "Niacin (B3) in milligrams"
+
+      - name: vitamin_b6_mg
+        description: "Vitamin B6 in milligrams"
+
+      - name: vitamin_b12_mcg
+        description: "Vitamin B12 in micrograms"
+
+      - name: vitamin_d_mcg
+        description: "Vitamin D in micrograms"
+
+      - name: vitamin_e_mg
+        description: "Vitamin E in milligrams"
+
+      - name: vitamin_k_mcg
+        description: "Vitamin K in micrograms"
+
+      - name: folate_equivalent_total_mcg
+        description: "Total folate equivalent in micrograms"
+
+      - name: folate_food_mcg
+        description: "Folate (food) in micrograms"
+
+      - name: folic_acid_mcg
+        description: "Folic acid in micrograms"
+
+      - name: water_g
+        description: "Water content in grams"
+
+      - name: link
+        description: "Original source link of the recipe"
+
+      - name: image_url
+        description: "URL to the image representing the recipe"
+
+      - name: ingredients
+        description: "Raw ingredient list text"
+
+      - name: health_labels
+        description: "Semicolon-separated health labels"
