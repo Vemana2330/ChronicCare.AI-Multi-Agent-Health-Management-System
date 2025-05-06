@@ -1,0 +1,11 @@
+apache-airflow
+apache-airflow[celery]
+apache-airflow-providers-amazon
+apache-airflow-providers-smtp
+apache-airflow-providers-redis
+apache-airflow-providers-snowflake
+dbt-snowflake==1.5.5
+boto3
+requests
+python-dotenv
+pandas

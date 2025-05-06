@@ -1,0 +1,9 @@
+psycopg2-binary
+python-dotenv
+requests
+folium
+streamlit-folium
+seaborn
+apscheduler
+matplotlib
+pandas
