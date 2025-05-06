@@ -1,0 +1,23 @@
+# Virtual environments
+shopenv/
+venv/
+.env
+
+# macOS
+.DS_Store
+/final_env
+# Virtual environments
+.venv/
+final1_env/
+
+__pycache__
+airflow/logs
+
+.python-version
+
+
+dbt.log
+
+mistral_conversion.log
+
+pdfs/
