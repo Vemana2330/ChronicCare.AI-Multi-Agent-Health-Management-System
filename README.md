@@ -9,6 +9,9 @@
 ## Technologies Used
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)](https://fastapi.tiangolo.com/)
+[![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langchain&logoColor=white)](https://github.com/langchain-ai/langgraph)
 [![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
 [![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)](https://docs.getdbt.com/)
@@ -48,14 +51,13 @@ Managing chronic health conditions demands daily attention to nutrition, medicat
 - Create a Live Summary Agent to summarize real-time news and discoveries for specific chronic conditions.
 - Enable email alerts for under/over calorie intake, remaining daily calories, and meal planning based on weekly consumption trends.
 - Build an ETL pipeline with Airflow to ingest nutrition data from Edamam API into Snowflake.
-- Containerize and deploy all components with Docker on DigitalOcean for public access.
+- Containerize and deploy all components with Docker, orchestrated on Kubernetes and deployed on Google Cloud Platform (GCP), with infrastructure managed by Terraform for scalable, reliable, and automated cloud deployment.
 
 ## Architecture Diagram
 
 ### Data Pipeline
 <img width="2156" height="1699" alt="Diagram_Nutrition_RAG_Project" src="https://github.com/user-attachments/assets/197cae42-9931-45bd-b4f9-1cd15a8724a3" />
 
-<img width="827" alt="Final_Project" src="https://github.com/user-attachments/assets/9f27e7dd-f3c1-4cf0-8291-1c37c49d0748" />
 
 ### Overall Architecture
 <img width="986" alt="Overall_Architecture" src="https://github.com/user-attachments/assets/cd2de6be-b420-4be4-8ffe-1e60a7ae0ae6" />
