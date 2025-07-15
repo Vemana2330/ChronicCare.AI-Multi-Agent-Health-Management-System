@@ -53,6 +53,8 @@ Managing chronic health conditions demands daily attention to nutrition, medicat
 ## Architecture Diagram
 
 ### Data Pipeline
+<img width="2156" height="1699" alt="Diagram_Nutrition_RAG_Project" src="https://github.com/user-attachments/assets/197cae42-9931-45bd-b4f9-1cd15a8724a3" />
+
 <img width="827" alt="Final_Project" src="https://github.com/user-attachments/assets/9f27e7dd-f3c1-4cf0-8291-1c37c49d0748" />
 
 ### Overall Architecture
